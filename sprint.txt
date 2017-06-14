@@ -1,0 +1,15 @@
+login 			--> OK $USER@mail.com $USER
+customer 		--> OK rut: 25000001 -> 25000200
+products 		--> OK id : 1 -> 164
+provider    	--> OK rut: 70000001 -> 70000045
+tags			--> OK ID : 1 -> 10
+users
+	admin		-->	OK admin@mail.com admin
+	manager 	-->	OK manager@mail.com manager
+	seller  	--> OK seller$id@mail.com,  seller , $id: 1-> 10
+	
+customer_tags   --> OK
+purchase 		--> Ok id: 1 -> 1200
+purchase_detail --> Ok
+sale 			--> Ok id: 1 -> 1200
+sale_details 	--> Ok
